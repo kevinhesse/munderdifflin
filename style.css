@@ -18,9 +18,10 @@ nav img{
 
 #masterpiece {
   position: absolute;
-  bottom: 50%;
-  left: 45%;
-  font-size:18px;
+  margin-top:22%;
+  margin-left: 37%;
+  margin-right: 25%;
+  font-size:28px;
   font style: courier;
 
 }
