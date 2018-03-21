@@ -1,3 +1,7 @@
+p {
+  position:absolute;
+}
+
 #navbar{
   height: 50px;
   border: 2px dashed;
