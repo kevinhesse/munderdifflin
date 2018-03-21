@@ -35,3 +35,20 @@ p {
   font style: courier;
 
 }
+
+#different {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top:10%;
+  margin-left: 35%;
+
+}
+#below{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 600px;
+  margin-left: 550px;
+}
+#precision {}
+#fit {}
+#team {}
