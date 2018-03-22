@@ -1,6 +1,9 @@
 p {
   position:absolute;
-  animation: slowFade 5s;
+}
+
+.section-one{
+  animation: fadeIn 4s;
 }
 
 #logo{
@@ -125,7 +128,7 @@ p {
 /*creates fade in effect for text*/
 @keyframes fadeIn {
   from {
-    opacity: 0;
+    opacity: .5;
   }
   to{
     opacity: 1;
