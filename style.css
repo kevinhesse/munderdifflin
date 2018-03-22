@@ -1,10 +1,15 @@
 p {
   position:absolute;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 
 .section-one{
   animation: fadeIn 4s;
 }
+
 
 #logo{
   position: absolute;
@@ -13,7 +18,7 @@ p {
   margin-top: 30px;
   border: 3px dashed black;
   font-size: 30px;
-  margin-left: 50px;
+  margin-left: 30px;
   font-weight:bold;
   /*font-variant: caps;*/
 }
@@ -103,14 +108,15 @@ p {
 }
 
 #preserve{
+
   background-color: black;
-  opacity: .6;
+  padding: 4px 10px;
   font-size: 40px;
   font-weight: bold;
   margin-top: 10%;
-  margin-left: 10%;
-  color: white;
+  margin-left: 7%;
   /*color: #E5F1E5;*/
+  color: white;
   text-shadow: 1px 1px 15px black;
 }
 
@@ -118,28 +124,31 @@ p {
   font-size: 30px;
   font-weight: bold;
   margin-top:300px;
-  margin-left: 300px;
-  color: black;
+  margin-left: 74px;
+  margin-right: 7%;
+
+  color: white;
   background-color: black;
   padding: 20px;
-  opacity: .5;
+  opacity: .7;
 }
 
 #team {
   font-size: 40px;
   font-weight: bold;
   margin-top: 15%;
-  margin-left: 23%;
+  margin-left: 10%;
   color: white;
   text-shadow: 1px 1px 15px black;
   animation: fadeIn 3s ;
 }
 #info-button {
+  opacity: .8;
   position: absolute;
   font-size: 22px;
   background-color: orange;
   color: white;
-  border: white 2px solid;
+  border: lightgrey 2px solid;
   margin-top: 600px;
   margin-left: 500px;
   padding-left: 20px;
@@ -147,6 +156,11 @@ p {
   padding-top: 10px;
   padding-bottom: 10px;
 
+}
+
+#info-button:hover {
+  animation: fadeIn 1s;
+  opacity: 1;
 }
 /*creates fade in effect for text*/
 @keyframes fadeIn {
