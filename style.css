@@ -12,15 +12,24 @@ a {
 
 
 #logo{
-  position: absolute;
+  /* position: absolute;
   padding: 30px;
   margin-right: 30px;
   margin-top: 30px;
   border: 3px dashed black;
   font-size: 30px;
   margin-left: 30px;
-  font-weight:bold;
+  font-weight:bold; */
   /*font-variant: caps;*/
+
+  position: absolute;
+  padding: 2.1vw;
+  margin-right: 2.1vw;
+  margin-top: 2.1vw;
+  border: .1vw dashed black;
+  font-size: 2.1vw;
+  margin-left: 2.1vw;
+  font-weight:bold;
 }
 
 #navbar{
@@ -51,14 +60,14 @@ a {
 }
 
 #different {
-  font-size: 35px;
+  font-size: 3vw;
   font-weight: bold;
   margin-top:10%;
   margin-left: 35%;
 }
 
 #about {
-  font-size: 18px;
+  font-size: 1.7vw;
   font-weight: bold;
   margin-top: 650px;
   margin-left: 550px;
@@ -67,21 +76,21 @@ a {
 
 
 #below{
-  font-size: 22px;
+  font-size: 1vw;
   font-weight: bold;
   margin-top: 600px;
   margin-left: 550px;
 }
 
 #precision {
-  font-size: 35px;
+  /*font-size: 35px;*/
   font-weight: bold;
   margin-top: 400px;
   margin-left: 550px;
 }
 
 #about-precision {
-  font-size: 20px;
+  /*font-size: 20px;*/
   margin-top: 520px;
   margin-left:550px;
 }
@@ -161,6 +170,19 @@ a {
 #info-button:hover {
   animation: fadeIn 1s;
   opacity: 1;
+}
+
+#final{
+  position:absolute;
+  background-position: fixed;
+  color: white;
+  opacity: .9;
+  margin-left: 450px;
+  margin-top: 720px;
+}
+.fas p {
+  margin-left: 400px;
+  margin-top: 300px;
 }
 /*creates fade in effect for text*/
 @keyframes fadeIn {
