@@ -3,10 +3,10 @@ p {
   animation: slowFade 5s;
 }
 
-.logo{
+#logo{
   position: absolute;
   padding: 30px;
-  margin-right: 50px;
+  margin-right: 30px;
   margin-top: 30px;
   border: 3px dashed black;
   font-size: 30px;
@@ -33,12 +33,6 @@ p {
   height: 100% auto;
 }
 
-#logo{
-  position: absolute;
-  margin-top: 15%;
-  margin-left:37%;
-}
-
 #masterpiece {
   position: absolute;
   margin-top:22%;
@@ -54,6 +48,15 @@ p {
   margin-top:10%;
   margin-left: 35%;
 }
+
+#about {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 650px;
+  margin-left: 550px;
+}
+
+
 
 #below{
   font-size: 22px;
@@ -90,7 +93,10 @@ p {
   font-weight: bold;
   margin-top:300px;
   margin-left: 300px;
-  color: black; 
+  color: black;
+  background-color: black;
+  padding: 20px;
+  opacity: .5;
 }
 
 #team {
