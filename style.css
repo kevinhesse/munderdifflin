@@ -1,11 +1,13 @@
 p {
   position:absolute;
-  animation: fadeIn 3500ms;
+  animation: slowFade 5s;
 }
 
 .logo{
+  position: absolute;
   padding: 30px;
   margin-right: 50px;
+  margin-top: 30px;
   border: 3px dashed black;
   font-size: 30px;
   margin-left: 50px;
@@ -70,8 +72,8 @@ p {
 #fit {
   font-size: 45px;
   font-weight: bold;
-  margin-top:420px;
-  margin-left: 600px;
+  margin-top:280px;
+  margin-left: 300px;
 }
 
 #preserve{
@@ -83,6 +85,14 @@ p {
   text-shadow: 1px 1px 15px black;
 }
 
+#preserve2{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top:300px;
+  margin-left: 300px;
+  color: black; 
+}
+
 #team {
   font-size: 40px;
   font-weight: bold;
@@ -92,11 +102,33 @@ p {
   text-shadow: 1px 1px 15px black;
   animation: fadeIn 3s ;
 }
+#info-button {
+  position: absolute;
+  font-size: 22px;
+  background-color: orange;
+  color: white;
+  border: white 2px solid;
+  margin-top: 600px;
+  margin-left: 500px;
+  padding-left: 20px;
+  padding-right:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
+}
 /*creates fade in effect for text*/
 @keyframes fadeIn {
   from {
     opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes slowFade {
+  from {
+    opacity: .55;
   }
   to{
     opacity: 1;
