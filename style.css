@@ -85,15 +85,32 @@ p {
   font-size: 45px;
   font-weight: bold;
   margin-top:280px;
-  margin-left: 300px;
+  margin-left: 400px;
+}
+
+#fit-about {
+  font-size: 25px;
+  margin-top: 450px;
+  margin-left: 340px;
+}
+#great-paper{
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 440px;
+  margin-top: 630px;
+
 }
 
 #preserve{
+  background-color: black;
+  opacity: .6;
   font-size: 40px;
   font-weight: bold;
   margin-top: 10%;
   margin-left: 10%;
-  color: #E5F1E5;
+  color: white;
+  /*color: #E5F1E5;*/
   text-shadow: 1px 1px 15px black;
 }
 
