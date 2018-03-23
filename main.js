@@ -33,4 +33,4 @@ document.addEventListener("scroll", event => {
 }
 })
 
-console.log("I work!");
+alert("Orlando, please view this in full screen, Thanks!!!");

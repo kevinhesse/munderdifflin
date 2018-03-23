@@ -18,7 +18,7 @@ a {
   margin-top: 30px;
   border: 3px dashed black;
   font-size: 30px;
-  margin-left: 30px;
+  margin-left: 50px;
   font-weight:bold;
   /*font-variant: caps;*/
 }
@@ -150,17 +150,28 @@ a {
   color: white;
   border: lightgrey 2px solid;
   margin-top: 600px;
-  margin-left: 500px;
+  margin-left: 520px;
   padding-left: 20px;
   padding-right:20px;
   padding-top: 10px;
   padding-bottom: 10px;
 
 }
-
+.scroll-arrow:hover{
+  animation: fadeIn 1s;
+  opacity 1;
+}
 #info-button:hover {
   animation: fadeIn 1s;
   opacity: 1;
+}
+.scroll-arrow{
+  color: white;
+  font-size: 70px;
+  opacity: .2;
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: 70px;
 }
 
 #final{
