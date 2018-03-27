@@ -1,5 +1,7 @@
 p {
   position:absolute;
+  font-family: 'Montserrat', sans-serif;
+  /* google fonts */
 }
 a {
   text-decoration: none;
@@ -10,7 +12,20 @@ a {
   animation: fadeIn 4s;
 }
 
+nav {
+  position: absolute;
+  opacity: .4;
+  background-color:black;
+  color:white;
+  margin-left: 87%;
+  padding-left: 20px;
+  padding-right:20px;
+  display: inline-block;
+}
 
+nav:hover{
+  opacity: .7;
+}
 #logo{
   position: absolute;
   padding: 30px;
@@ -20,7 +35,6 @@ a {
   font-size: 30px;
   margin-left: 50px;
   font-weight:bold;
-  /*font-variant: caps;*/
 }
 
 #navbar{
@@ -52,9 +66,9 @@ a {
 
 #different {
   font-size: 35px;
-  font-weight: bold;
+  font-weight: bolder;
   margin-top:10%;
-  margin-left: 35%;
+  margin-left: 32%;
 }
 
 #about {
@@ -90,32 +104,30 @@ a {
   font-size: 45px;
   font-weight: bold;
   margin-top:280px;
-  margin-left: 400px;
+  margin-left: 330px;
 }
 
 #fit-about {
   font-size: 25px;
   margin-top: 450px;
-  margin-left: 340px;
+  margin-left: 250px;
 }
+
 #great-paper{
   position: absolute;
   font-size: 25px;
   font-weight: bold;
-  margin-left: 440px;
+  margin-left: 380px;
   margin-top: 630px;
-
 }
 
 #preserve{
-
   background-color: black;
   padding: 4px 10px;
   font-size: 40px;
   font-weight: bold;
   margin-top: 10%;
-  margin-left: 7%;
-  /*color: #E5F1E5;*/
+  margin-left: 0%;
   color: white;
   text-shadow: 1px 1px 15px black;
 }
@@ -124,9 +136,8 @@ a {
   font-size: 30px;
   font-weight: bold;
   margin-top:300px;
-  margin-left: 74px;
+  margin-left: 70px;
   margin-right: 7%;
-
   color: white;
   background-color: black;
   padding: 20px;
@@ -134,14 +145,15 @@ a {
 }
 
 #team {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: bold;
   margin-top: 15%;
-  margin-left: 10%;
+  margin-left: 0%;
   color: white;
   text-shadow: 1px 1px 15px black;
   animation: fadeIn 3s ;
 }
+
 #info-button {
   opacity: .8;
   position: absolute;
@@ -155,16 +167,18 @@ a {
   padding-right:20px;
   padding-top: 10px;
   padding-bottom: 10px;
-
 }
+
 .scroll-arrow:hover{
   animation: fadeIn 1s;
   opacity 1;
 }
+
 #info-button:hover {
   animation: fadeIn 1s;
   opacity: 1;
 }
+
 .scroll-arrow{
   color: white;
   font-size: 70px;
