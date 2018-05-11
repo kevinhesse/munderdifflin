@@ -1,4 +1,14 @@
-Munder Difflin
+# munder difflin
+## A paper company website
 
-A one page fictional website displaying various uses of html, css and javascript. 
-Designed around simplicity and focused heavily on user experience, this page was created with the intention of provding the user a easy to manuever, clear and visually appealing experience.
+
+## Tools Used:
+* HTML
+* CSS
+* JavaScript
+
+
+## Features:
+* fictional papercompany mock site
+* defines features and highlights of company benefits
+* unique scrolling and user experience
